@@ -1,0 +1,14 @@
+[build-system]
+requires = ["flit_core >=3.2,<4"]
+build-backend = "flit_core.buildapi"
+
+[project]
+name = "anc_login"
+version = "1.0.0"
+description = "ANC Custom Login Page for ERPNext"
+readme = "README.md"
+requires-python = ">=3.10"
+license = {text = "MIT"}
+
+[tool.flit.module]
+name = "anc_login"
